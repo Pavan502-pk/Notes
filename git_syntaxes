@@ -1,0 +1,93 @@
+git --version
+$pwd
+
+git mkdir project
+
+git cd project
+
+
+git ls -a
+
+git init
+
+///file creation
+
+touch sample.txt
+
+git status
+
+git add .   //adds the file in github
+ git status
+
+
+
+git add --all 
+or
+git add -A
+or
+git add filename.extension
+git status
+
+git config --global user.name "Bhanu2509"
+git config --global user.email "barribhanukrishna@gmail.com"
+
+git config --list
+
+git commit /////to eneter into editior and exit is the shift+;+wq
+
+git commit -am "added day1files"
+or
+git commit -m "added day2 files"
+
+git log  ////shows the enetered data like added day 1 files...
+
+
+
+
+
+remote login
+
+
+    git remote add origin https://github.com/Bhanu2509/project.git
+git push origin master
+pull
+
+
+----------------07/04/2021
+
+step1: how to create
+touch sample.txt
+step 2: how to add data into file
+    cat>sample.txt press eneter
+
+step 3: write some text here then press ctrl+s 
+         for exit press 
+        ctrl+x ctrl+x,ctrl+z
+
+step 4 : check the git status
+       git status (to check track or untracking files)
+
+step5:add files into repository
+       git add --all or
+      git add --A or
+      git add .
+      git add filename
+step 6 : configure the username and email
+      git config --global user.name "Bhanu2509"
+     git config --global user.email "barribhanukrishna@gmail.com"
+     
+ step 7: how to check 
+ git log
+ 
+ STEP 8: TO SAVE ALL THE CHANGES
+ git commit -m "files are added"
+ 
+ step 9: create repository in github.com   and give some name to repository under username
+ 
+ step 10:  add the remote branch to repository
+       git remote add origin "your url of repository"
+
+step 11: perform push operation using 
+        git push origin master
+        
+step 12 : git pull origin master
